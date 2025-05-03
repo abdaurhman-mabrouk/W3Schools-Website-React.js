@@ -11,7 +11,7 @@ function MainNav() {
           className="main-nav-link w3-bar-item w3-button w3-hover-none w3-left ga-top ga-top-w3home"
           title="Home"
           style={{ width: '75px' }}
-          ariaLabel="Home link"
+          aria-label="Home link"
           data--h-bstatus="0OBSERVED">
           <i
             className="fa fa-logo ws-hover-text-green"
@@ -25,39 +25,39 @@ function MainNav() {
             data--h-bstatus="0OBSERVED"></i>
         </a>
 
-        <a href="." className="main-nav-link">
+        <a href="#" className="main-nav-link">
           Tutorials
           <i
             className="fa fa-caret-down"
             style={{ fontSize: '15px', display: 'inline', color: '#fff' }}
-            ariaHidden="true"
+            aria-hidden="true"
             data--h-bstatus="0OBSERVED"></i>
         </a>
 
-        <a href="." className="main-nav-link">
+        <a href="#" className="main-nav-link">
           Exercises
           <i
             className="fa fa-caret-down"
             style={{ fontSize: '15px', display: 'inline', color: '#fff' }}
-            ariaHidden="true"
+            aria-hidden="true"
             data--h-bstatus="0OBSERVED"></i>
         </a>
 
-        <a href="." className="main-nav-link">
+        <a href="#" className="main-nav-link">
           Certificates
           <i
             className="fa fa-caret-down"
             style={{ fontSize: '15px', display: 'inline', color: '#fff' }}
-            ariaHidden="true"
+            aria-hidden="true"
             data--h-bstatus="0OBSERVED"></i>
         </a>
 
-        <a href="." className="main-nav-link">
+        <a href="#" className="main-nav-link">
           Services
           <i
             className="fa fa-caret-down"
             style={{ fontSize: '15px', display: 'inline', color: '#fff' }}
-            ariaHidden="true"
+            aria-hidden="true"
             data--h-bstatus="0OBSERVED"></i>
         </a>
 
@@ -69,14 +69,14 @@ function MainNav() {
       </div>
 
       <div className="main-nav-right-wrapper-container">
-        <a href="." className="main-nav-link">
+        <a href="#" className="main-nav-link">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="15"
             height="36"
             viewBox="0 0 12 16"
             fill="none"
-            ariaHidden="true"
+            aria-hidden="true"
             data--h-bstatus="0OBSERVED">
             <path
               d="M6.65723 6.24707C6.76704 5.91764 7.233 5.91765 7.34281 6.24707L7.98828 8.1835C8.276 9.04666 8.95332 9.72399 9.81648 10.0117L11.7529 10.6572C12.0824 10.767 12.0824 11.233 11.7529 11.3428L9.81649 11.9883C8.95332 12.276 8.27599 12.9533 7.98828 13.8165L7.34281 15.7529C7.233 16.0823 6.76704 16.0823 6.65723 15.7529L6.01173 13.8165C5.72401 12.9533 5.04669 12.276 4.18353 11.9883L2.24707 11.3428C1.91764 11.233 1.91764 10.767 2.24707 10.6572L4.18353 10.0117C5.04669 9.72399 5.72401 9.04667 6.01173 8.18352L6.65723 6.24707Z"
@@ -94,12 +94,12 @@ function MainNav() {
           Plus
         </a>
 
-        <a href="." className="main-nav-link">
+        <a href="#" className="main-nav-link">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="1em"
             viewBox="0 0 640 512"
-            ariaHidden="true"
+            aria-hidden="true"
             data--h-bstatus="0OBSERVED">
             <path
               d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"
@@ -109,7 +109,7 @@ function MainNav() {
           Spaces{' '}
         </a>
 
-        <a href="." className="main-nav-link">
+        <a href="#" className="main-nav-link">
           <svg
             stroke="#9763f6"
             fill="#9763f6"
@@ -128,12 +128,12 @@ function MainNav() {
           For Techers
         </a>
 
-        <a href="." className="main-nav-link">
+        <a href="#" className="main-nav-link">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="1em"
             viewBox="0 0 576 512"
-            ariaHidden="true"
+            aria-hidden="true"
             data--h-bstatus="0OBSERVED">
             <path
               d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48H69.5c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H199.7c-11.5 0-21.4-8.2-23.6-19.5L170.7 288H459.2c32.6 0 61.1-21.8 69.5-53.3l41-152.3C576.6 57 557.4 32 531.1 32h-411C111 12.8 91.6 0 69.5 0H24zM131.1 80H520.7L482.4 222.2c-2.8 10.5-12.3 17.8-23.2 17.8H161.6L131.1 80zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z"
