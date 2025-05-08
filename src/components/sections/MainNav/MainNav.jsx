@@ -1,7 +1,22 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import './MainNav.css';
+import { Link } from 'react-router-dom';
+import toggleModeBtn from '../../../assets/icons/toggle-mode-btn.png';
 
 function MainNav() {
+  const handleToggleModeBtnClick = () => {
+    console.log('Toggled');
+  };
+
+  const handleInputFocus = (e) => {
+    const targetSpan = document.querySelector(
+      '.search-input-wrapper-container'
+    );
+
+    targetSpan.focus();
+  };
+
   return (
     <nav id="mainNav">
       <div className="main-nav-left-wrapper-container">
@@ -25,46 +40,71 @@ function MainNav() {
             data--h-bstatus="0OBSERVED"></i>
         </a>
 
-        <a href="#" className="main-nav-link">
+        <Link to="/tutorials" className="main-nav-link">
           Tutorials
           <i
             className="fa fa-caret-down"
             style={{ fontSize: '15px', display: 'inline', color: '#fff' }}
             aria-hidden="true"
             data--h-bstatus="0OBSERVED"></i>
-        </a>
+        </Link>
 
-        <a href="#" className="main-nav-link">
+        <Link to="exercises" className="main-nav-link">
           Exercises
           <i
             className="fa fa-caret-down"
             style={{ fontSize: '15px', display: 'inline', color: '#fff' }}
             aria-hidden="true"
             data--h-bstatus="0OBSERVED"></i>
-        </a>
+        </Link>
 
-        <a href="#" className="main-nav-link">
+        <Link to="certificates" className="main-nav-link">
           Certificates
           <i
             className="fa fa-caret-down"
             style={{ fontSize: '15px', display: 'inline', color: '#fff' }}
             aria-hidden="true"
             data--h-bstatus="0OBSERVED"></i>
-        </a>
+        </Link>
 
-        <a href="#" className="main-nav-link">
+        <Link to="services" className="main-nav-link">
           Services
           <i
             className="fa fa-caret-down"
             style={{ fontSize: '15px', display: 'inline', color: '#fff' }}
             aria-hidden="true"
             data--h-bstatus="0OBSERVED"></i>
-        </a>
+        </Link>
 
-        <input type="text" id="mainNavSearchInput" placeholder="Search..." />
+        <span className="search-input-wrapper-container" tabIndex={0}>
+          <input
+            type="text"
+            id="mainNavSearchInput"
+            placeholder="Search..."
+            onFocus={handleInputFocus}
+          />
 
-        <button type="button">
-          <i data--h-bstatus="0OBSERVED"></i>
+          <svg
+            id="tnb-google-search-icon"
+            style={{ width: '20px', height: '20px' }}
+            viewBox="0 0 17 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            data--h-bstatus="0OBSERVED">
+            <path
+              d="M11.8153 10.3439C12.6061 9.2673 13.0732 7.9382 13.0732 6.5C13.0732 2.91015 10.163 0 6.57318 0C2.98333 0 0.0731812 2.91015 0.0731812 6.5C0.0731812 10.0899 2.98333 13 6.57318 13C8.01176 13 9.3412 12.5327 10.4179 11.7415L10.4171 11.7422C10.4466 11.7822 10.4794 11.8204 10.5156 11.8566L14.3661 15.7071C14.7566 16.0976 15.3898 16.0976 15.7803 15.7071C16.1708 15.3166 16.1708 14.6834 15.7803 14.2929L11.9298 10.4424C11.8936 10.4062 11.8553 10.3734 11.8153 10.3439ZM12.0732 6.5C12.0732 9.53757 9.61075 12 6.57318 12C3.53561 12 1.07318 9.53757 1.07318 6.5C1.07318 3.46243 3.53561 1 6.57318 1C9.61075 1 12.0732 3.46243 12.0732 6.5Z"
+              fill="#999999"
+              data--h-bstatus="0OBSERVED"></path>
+          </svg>
+        </span>
+
+        {/*TODO: FIX THIS BUTTON IMAGE ISSUE */}
+        <button type="button" id="toggleModeBtn">
+          <img
+            src={toggleModeBtn}
+            alt="toggle_mode_btn"
+            onClick={handleToggleModeBtnClick}
+          />
         </button>
       </div>
 
@@ -143,18 +183,9 @@ function MainNav() {
           Get Certified
         </a>
 
-        <a>
+        <a href="#" id="mainNavUserLink" className="main-nav-user-link">
           <span>
-            <img
-              src="."
-              // alt="user_profile"
-              style={{
-                width: '35px',
-                height: '35px',
-                border: '1px solid #000',
-                borderRadius: '100%',
-              }}
-            />
+            <i className="fa-solid fa-user" style={{ color: ' #fff' }}></i>
           </span>
         </a>
       </div>

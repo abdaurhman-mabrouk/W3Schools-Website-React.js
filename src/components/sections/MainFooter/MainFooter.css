@@ -1,0 +1,33 @@
+footer#mainFooter {
+  max-width: 100%;
+  width: 100%;
+  height: 500px;
+  margin-top: 140px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background-image: url('../../../assets/images/bg_sky_darker.gif');
+}
+
+div.top-line-footer-link {
+  border: 1px solid #000;
+}
+
+span.footer-middle-line-column {
+  width: 15%;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  border: 1px solid #000;
+}
+
+span.footer-middle-line-column * {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  display: block;
+}
