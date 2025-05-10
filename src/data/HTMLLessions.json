@@ -1,0 +1,211 @@
+{
+  "tutorial": {
+    "title": "HTML Tutorial",
+    "description": "Learn HTML with this comprehensive tutorial."
+  },
+  "lessions": [
+    {
+      "id": 0,
+      "title": "HTML Home",
+      "description": "Learn the basics of HTML, its structure, and how to create a simple webpage.",
+      "link": "html/html_home",
+      "isFinished": false
+    },
+    {
+      "id": 1,
+      "title": "HTML Introduction",
+      "description": "",
+      "link": "/html/html_introduction",
+      "isFinished": false
+    },
+    {
+      "id": 2,
+      "title": "HTML Editors",
+      "description": "Learn about HTML attributes and how to use them.",
+      "link": "/html/html_editors",
+      "isFinished": false
+    },
+    {
+      "id": 3,
+      "title": "HTML Basic",
+      "description": "",
+      "link": "/html/html_basic",
+      "isFinished": false
+    },
+    {
+      "id": 4,
+      "title": "HTML Elements",
+      "description": "",
+      "link": "/html/html_elements",
+      "isFinished": false
+    },
+    {
+      "id": 5,
+      "title": "HTML Attributes",
+      "description": "",
+      "link": "/html/html_attributes",
+      "isFinished": false
+    },
+    {
+      "id": 6,
+      "title": "HTML Headings",
+      "description": "",
+      "link": "/html/html_headings",
+      "isFinished": false
+    },
+    {
+      "id": 7,
+      "title": "HTML Paragraphs",
+      "description": "",
+      "link": "/html/html_paragraphs",
+      "isFinished": false
+    },
+    {
+      "id": 8,
+      "title": "HTML Styles",
+      "description": "",
+      "link": "/html/html_styles",
+      "isFinished": false
+    },
+    {
+      "id": 9,
+      "title": "HTML Formatting",
+      "description": "",
+      "link": "/html/html_formatting",
+      "isFinished": false
+    },
+    {
+      "id": 10,
+      "title": "HTML Quotations",
+      "description": "",
+      "link": "/html/html_quotations",
+      "isFinished": false
+    },
+    {
+      "id": 11,
+      "title": "HTML Comments",
+      "description": "",
+      "link": "/html/html_comments",
+      "isFinished": false
+    },
+    {
+      "id": 12,
+      "title": "HTML Colors",
+      "description": "",
+      "link": "/html/html_colors",
+      "isFinished": false
+    },
+    {
+      "id": 13,
+      "title": "HTML CSS",
+      "description": "",
+      "link": "/html/html_css",
+      "isFinished": false
+    },
+    {
+      "id": 14,
+      "title": "HTML Links",
+      "description": "",
+      "link": "/html/html_links",
+      "isFinished": false
+    },
+    {
+      "id": 15,
+      "title": "HTML Images",
+      "description": "",
+      "link": "/html/html_images",
+      "isFinished": false
+    },
+    {
+      "id": 16,
+      "title": "HTML Favicon",
+      "description": "",
+      "link": "/html/html_favicon",
+      "isFinished": false
+    },
+    {
+      "id": 17,
+      "title": "HTML Page Title",
+      "description": "",
+      "link": "/html/html_page_title",
+      "isFinished": false
+    },
+    {
+      "id": 18,
+      "title": "HTML Tables",
+      "description": "",
+      "link": "/html/html_tables",
+      "isFinished": false
+    },
+    {
+      "id": 19,
+      "title": "HTML Lists",
+      "description": "",
+      "link": "/html/html_lists",
+      "isFinished": false
+    },
+    {
+      "id": 20,
+      "title": "HTML Block & Inline",
+      "description": "",
+      "link": "/html/html_block_inline",
+      "isFinished": false
+    },
+    {
+      "id": 21,
+      "title": "HTML Div",
+      "description": "",
+      "link": "/html/html_div",
+      "isFinished": false
+    },
+    {
+      "id": 22,
+      "title": "HTML Classes",
+      "description": "",
+      "link": "/html/html_classes",
+      "isFinished": false
+    },
+    {
+      "id": 23,
+      "title": "HTML ID",
+      "description": "",
+      "link": "/html/html_id",
+      "isFinished": false
+    },
+    {
+      "id": 24,
+      "title": "HTML Iframe",
+      "description": "",
+      "link": "/html/html_iframe",
+      "isFinished": false
+    },
+    {
+      "id": 25,
+      "title": "HTML JavaScript",
+      "description": "",
+      "link": "/html/html_javascript",
+      "isFinished": false
+    },
+    {
+      "id": 26,
+      "title": "HTML File Paths",
+      "description": "",
+      "link": "/html/html_file_paths",
+      "isFinished": false
+    },
+    {
+      "id": 27,
+      "title": "HTML Head",
+      "description": "",
+      "link": "/html/html_head",
+      "isFinished": false
+    },
+    {
+      "id": 28,
+      "title": "HTML Layout",
+      "description": "",
+      "link": "/html/html_layout",
+      "isFinished": false
+    }
+  ]
+}

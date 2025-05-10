@@ -4,11 +4,35 @@ import './MainNavScrollbar.css';
 
 function MainNavScrollbar() {
   // Function to handle the scroll left button click
-  const handleScrollLeft = (e) => {
+  const handleScrollLeft = () => {
     const scrollbarContainer = document.getElementById('mainNavScrollbar');
-    do {
-      scrollbarContainer.scrollBy({ left: -10, behavior: 'smooth' });
-    } while (e.type === 'mousedown');
+
+    const scrollLeftInterval = setInterval(() => {
+      scrollbarContainer.scrollBy({ left: -30, behavior: 'smooth' });
+    }, 50);
+
+    const stopScrolling = () => {
+      clearInterval(scrollLeftInterval);
+      document.removeEventListener('mouseup', stopScrolling);
+    };
+
+    document.addEventListener('mouseup', stopScrolling);
+  };
+
+  // Function to handle the scroll right button click
+  const handleScrollRight = () => {
+    const scrollbarContainer = document.getElementById('mainNavScrollbar');
+
+    const scrollRightInterval = setInterval(() => {
+      scrollbarContainer.scrollBy({ left: 30, behavior: 'smooth' });
+    }, 50);
+
+    const stopScrolling = () => {
+      clearInterval(scrollRightInterval);
+      document.removeEventListener('mouseup', stopScrolling);
+    };
+
+    document.addEventListener('mouseup', stopScrolling);
   };
 
   return (
@@ -193,7 +217,9 @@ function MainNavScrollbar() {
       <button
         type="button"
         id="scrollRightBtn"
-        className="main-nav-scrollbar-btn">
+        className="main-nav-scrollbar-btn"
+        onMouseDown={handleScrollRight}
+        onMouseUp={handleScrollRight}>
         <span data--h-bstatus="0OBSERVED">❯</span>
       </button>
     </nav>

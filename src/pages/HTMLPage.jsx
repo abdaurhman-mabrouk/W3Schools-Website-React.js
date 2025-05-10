@@ -1,7 +1,12 @@
 import React from 'react';
+import TutorialLayout from '../layouts/TutorialLayout';
 
 function HTML() {
-  return <div></div>;
+  return (
+    <>
+      <TutorialLayout />
+    </>
+  );
 }
 
 export default HTML;

@@ -1,13 +1,17 @@
 footer#mainFooter {
+  min-width: 100%;
   max-width: 100%;
   width: 100%;
   height: 500px;
-  margin-top: 140px;
+  min-height: 500px;
+  max-height: 500px;
+  /* margin-top: 140px; */
   justify-content: center;
   text-align: center;
   align-items: center;
   align-content: center;
   background-image: url('../../../assets/images/bg_sky_darker.gif');
+  background-size: cover;
 }
 
 div.top-line-footer-link {
