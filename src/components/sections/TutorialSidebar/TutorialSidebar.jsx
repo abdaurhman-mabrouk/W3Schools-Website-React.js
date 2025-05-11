@@ -2,19 +2,19 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './TutorialSidebar.css';
-import HTMLLessons from '../../../data/HTMLLessions.json';
 
-function TutorialSidebar({ parentElementId }) {
+function TutorialSidebar({ tutorialData }) {
   const [lessons, setLessons] = useState([]);
 
   useEffect(() => {
     // Simulate fetching lessons data
-    setLessons(HTMLLessons.lessons || []);
-  }, []);
+    setLessons(tutorialData.lessons || []);
+  }, [tutorialData.lessons]);
+
   useEffect(() => {
     // Simulate fetching lessons data
-    setLessons(HTMLLessons.lessions || []);
-  }, []);
+    setLessons(tutorialData.lessions || []);
+  }, [tutorialData]);
 
   const handleFinishLesson = (lessonId) => {
     setLessons((prevLessons) =>
@@ -28,7 +28,7 @@ function TutorialSidebar({ parentElementId }) {
 
   return (
     <aside>
-      <h2>Tutorial Title</h2>
+      <h2>{tutorialData.tutorial.title}</h2>
 
       <div className="tutorial-sidebar-links-wrapper-container">
         {lessons.map((lesson) => (
