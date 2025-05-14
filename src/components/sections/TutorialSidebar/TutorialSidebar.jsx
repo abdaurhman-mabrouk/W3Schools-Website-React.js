@@ -3,7 +3,11 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './TutorialSidebar.css';
 
-function TutorialSidebar({ tutorialData }) {
+function TutorialSidebar({
+  tutorialData,
+  sidebarWidth = '20%',
+  sidebarHeight = '100%',
+}) {
   const [lessons, setLessons] = useState([]);
 
   useEffect(() => {
@@ -13,7 +17,7 @@ function TutorialSidebar({ tutorialData }) {
 
   useEffect(() => {
     // Simulate fetching lessons data
-    setLessons(tutorialData.lessions || []);
+    setLessons(tutorialData.lessons || []);
   }, [tutorialData]);
 
   const handleFinishLesson = (lessonId) => {
@@ -27,9 +31,8 @@ function TutorialSidebar({ tutorialData }) {
   };
 
   return (
-    <aside>
-      <h2>{tutorialData.tutorial.title}</h2>
-
+    <aside className="tutorial-sidebar">
+      <h2>{tutorialData.tutorial.title}</h2>;
       <div className="tutorial-sidebar-links-wrapper-container">
         {lessons.map((lesson) => (
           <Link

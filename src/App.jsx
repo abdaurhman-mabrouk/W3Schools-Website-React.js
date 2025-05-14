@@ -24,6 +24,7 @@ const CertificatesLayout = lazy(() => {
   return import('./layouts/CertificatesLayout.jsx');
 });
 
+
 function App() {
   return (
     <>

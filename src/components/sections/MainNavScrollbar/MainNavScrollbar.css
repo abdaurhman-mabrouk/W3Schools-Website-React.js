@@ -8,10 +8,10 @@ nav#mainNavScrollbar {
   max-width: 100%;
   width: 100%;
   height: 30px;
-  background-color: #0d1721;
   /* overflow-y: hidden; */
   overflow-x: scroll;
   scrollbar-width: none;
+  background-color: #0d1721;
 }
 
 a.main-nav-scrollbar-link {

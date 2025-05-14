@@ -1,0 +1,36 @@
+{
+  "tutorial": {
+    "title": "CSS Tutorial",
+    "description": "Master CSS styling, layouts, and responsive design."
+  },
+  "lessons": [
+    {
+      "id": 0,
+      "title": "CSS Home",
+      "description": "Introduction to CSS syntax and selectors.",
+      "link": "/css/css_home",
+      "isFinished": false
+    },
+    {
+      "id": 1,
+      "title": "CSS Introduction",
+      "description": "",
+      "link": "/css/css_introduction",
+      "isFinished": false
+    },
+    {
+      "id": 2,
+      "title": "CSS Syntax",
+      "description": "",
+      "link": "/css/css_syntax",
+      "isFinished": false
+    },
+    {
+      "id": 45,
+      "title": "CSS Variables",
+      "description": "",
+      "link": "/css/css_variables",
+      "isFinished": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "tutorial": {
+    "title": "JavaScript Tutorial",
+    "description": "Learn JavaScript for web development and beyond."
+  },
+  "lessons": [
+    {
+      "id": 0,
+      "title": "JS Home",
+      "description": "Getting started with JavaScript fundamentals.",
+      "link": "/js/js_home",
+      "isFinished": false
+    },
+    {
+      "id": 1,
+      "title": "JS Introduction",
+      "description": "",
+      "link": "/js/js_introduction",
+      "isFinished": false
+    },
+    {
+      "id": 2,
+      "title": "JS Output",
+      "description": "",
+      "link": "/js/js_output",
+      "isFinished": false
+    },
+    {
+      "id": 85,
+      "title": "JS Web APIs",
+      "description": "",
+      "link": "/js/js_web_apis",
+      "isFinished": false
+    }
+  ]
+}
